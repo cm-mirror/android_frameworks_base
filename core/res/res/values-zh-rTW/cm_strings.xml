@@ -31,6 +31,8 @@
     <string name="global_actions_toggle_expanded_desktop_mode">擴展桌面</string>
     <string name="global_actions_expanded_desktop_mode_on_status">啟用</string>
     <string name="global_actions_expanded_desktop_mode_off_status">停用</string>
+    <string name="expanded_mode_default_set">擴展桌面設置為隱藏狀態欄，配置在電源管理菜單設置中。</string>
+    <string name="expanded_mode_default_with_navbar_set">擴展桌面設置為隱藏狀態欄和導航欄。配置在電源管理菜單設置中。</string>
     <string name="reboot_reboot">重新啟動</string>
     <string name="reboot_recovery">Recovery</string>
     <string name="reboot_bootloader">Bootloader</string>
@@ -114,6 +116,7 @@
     <string name="permdesc_changePrivacyGuardState">允許應用程式變更其他應用程式執行時是否啟用隱私守衛。當應用程式執行時啟用了隱私守衛，應用程式將無法存取個人資料，例如聯絡人、通話記錄、或訊息。</string>
     <string name="privacy_guard_notification">隱私守衛作用中</string>
     <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 將無法存取個人資料</string>
+    <string name="privacy_guard_custom_notification_detail"><xliff:g id="app">%1$s</xliff:g> 將無法訪問自定義權限</string> 
     <string name="profile_picker_title">設定檔</string>
     <string name="profile_none">無</string>
     <string name="permlab_cancelNotifications">取消應用程式通知</string>
@@ -124,4 +127,24 @@
     <string name="policydesc_enforceSelinux">切換 SELinux 政策執行模式或許可模式。</string>
     <string name="policylab_enforceMmac">執行 MMAC</string>
     <string name="policydesc_enforceMmac">切換 MMAC 政策執行模式或許可模式。</string>
+    <!-- Animation Strings -->
+    <string name="animation_fade">褪色</string>
+    <string name="animation_slide_right">右側滑動</string>
+    <string name="animation_slide_left">左側滑動</string>
+    <string name="animation_slide_right_no_fade">右側滑動 (不退色)</string>
+    <string name="animation_slide_left_no_fade">左側滑動 (不退色)</string>
+    <string name="animation_slide_up">底部滑動</string>
+    <string name="animation_slide_down">頂部滑動</string>
+    <string name="animation_default">默認</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">增長（頂部）</string>
+    <string name="animation_grow_shrink_center">增長（中間）</string>
+    <string name="animation_grow_shrink_bottom">增長（底部）</string>
+    <string name="animation_grow_shrink_left">增長（左側）</string>
+    <string name="animation_grow_shrink_right">增長（右側）</string>
+    <string name="action_null">空白</string> 
+
+    <!-- Description of the Random button in a KeyboardView. [CHAR LIMIT=NONE] -->
+    <string name="keyboardview_keycode_random">隨機刷新按鈕</string>
+
 </resources>
