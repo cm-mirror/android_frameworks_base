@@ -3515,29 +3515,59 @@ public final class Settings {
          */
         public static final String NOTIF_ALPHA = "notif_alpha";  
 
-	/**
-         * Hide network speed indicator when there is no traffic
+        /**
+         * Whether to show the network status in the status bar
          * @hide
          */
-        public static final String STATUS_BAR_TRAFFIC_HIDE = "status_bar_traffic_hide"; 
+        public static final String STATUS_BAR_NETWORK_STATS = "status_bar_network_stats";
+ 
+        /**
+         * Frequency at which stats are updated, in milliseconds
+         * @hide
+         */
+        public static final String STATUS_BAR_NETWORK_STATS_UPDATE_INTERVAL = "status_bar_network_stats_update_frequency";
 
 	/**
-         * Network speed indicator
+         * Network stats hide if there's no traffic
          * @hide
          */
-        public static final String STATUS_BAR_TRAFFIC_ENABLE = "status_bar_traffic_enable"; 
+        public static final String STATUS_BAR_NETWORK_HIDE = "status_bar_network_hide";
+
+        /**
+         * Network stats Color style
+         * @hide
+         */
+        public static final String STATUS_BAR_NETWORK_COLOR = "status_bar_network_usage_color";
 
 	/**
-         * Sets color of statusbar traffic indicator
          * @hide
          */
-        public static final String STATUS_BAR_TRAFFIC_COLOR = "status_bar_traffic_color"; 
+        public static final String WAKELOCK_BLOCKING_ENABLED = "wakelock_blocking_enabled";
+
+        /**
+         * @hide
+         */
+        public static final String WAKELOCK_BLOCKING_LIST = "wakelock_blocking_list";
 
 	/**
-         * Show summary of traffic.
          * @hide
          */
-        public static final String STATUS_BAR_TRAFFIC_SUMMARY = "status_bar_traffic_summary";
+        public static final String START_SCREEN_STATE_SERVICE = "start_screen_state_service";
+
+        /**
+         * @hide
+         */
+        public static final String SCREEN_STATE_TWOG = "screen_state_twog";
+
+        /**
+         * @hide
+         */
+        public static final String SCREEN_STATE_GPS = "screen_state_gps";
+
+        /**
+         * @hide
+         */
+        public static final String SCREEN_STATE_MOBILE_DATA = "screen_state_mobile_data";
 
 	/**
          * whether which Ram Usage Bar mode is used on recent switcher
